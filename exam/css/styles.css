@@ -1,0 +1,70 @@
+:root {
+    --orange: #ffa500;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 7%;
+}
+
+header .navbar a {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0 .8rem;
+    text-decoration: none;
+}
+
+header .navbar a:hover {
+    color: var(--orange);
+}
+
+.img-logo {
+    width: 188px;
+    height: 44px;
+}
+
+.img-face img {
+    width: 100%;
+    margin-top: 5.5%;
+}
+
+
+.articles-text {
+    color: #fff;
+    font-size: 46px;
+    line-height: 74px;
+    font-weight: 400;
+    margin-left: 90px;
+    padding: 10px;
+}
+
+.users {
+    margin-left: 100px;
+}

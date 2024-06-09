@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-10 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.box-11 {
+    width: 28%;
+    height: 90vh;
+    background-color: #F5C147;
+    border-radius: 31px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+}
+
+.box-13 {
+    width: 300px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 22px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.btn-5 {
+    width: 300px;
+    height: 60px;
+    border: none;
+    background-color: black;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 20px;
+    text-align: start;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.asli {
+    text-decoration: none;
+    color: black;
+    margin-top: 230px;
+    font-size: 20px;
+    margin-top: 100%;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.box-12 {
+    width: 70%;
+    height: 90vh;
+    padding: 20px;
+}
+
+.h11 {
+    color: #fff;
+}
+
+hr {
+    width: 840px;
+    background-color: grey;
+    margin-top: 10px;
+}
+
+.pp {
+    color: #fff;
+    margin-top: 30px;
+}
+
+.in1,
+.in2,
+.in3,
+.in4 {
+    width: 840px;
+    height: 35px;
+    border-radius: 15px;
+    margin-top: 1%;
+    border: none;
+    padding: 15px;
+}
+
+.box-14 {
+    width: 840px;
+    height: 70px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ppp {
+    color: #fff;
+}
+
+.in2 {
+    width: 400px;
+    height: 25px;
+    border-radius: 15px;
+    border: none;
+}
+
+.in3 {
+    width: 270px;
+    height: 25px;
+    border-radius: 15px;
+    border: none;
+}
+
+.btn-6 {
+    width: 100px;
+    height: 30px;
+    background-color: grey;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.in4 {
+    width: 840px;
+    height: 130px;
+    padding: 15px;
+}
+
+.allbtn {
+    width: 250px;
+    height: 50px;
+    background-color: #F5C147;
+    color: black;
+    margin-left: 300px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

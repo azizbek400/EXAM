@@ -1,0 +1,72 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+.signup-box {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-form {
+    width: 450px;
+    height: 475px;
+    background-color: rgba(245, 193, 71, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 80px;
+    gap: 25px;
+}
+
+.auth-form .sign-text {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.auth-form input {
+    width: 380px;
+    height: 42px;
+    border: 2px solid black;
+    border-radius: 17px;
+    font-size: 16px;
+    padding: 12px;
+}
+
+.auth-form input:focus {
+    border: 3px solid black;
+}
+
+.img-logo {
+    border-radius: 20px;
+    width: 188px;
+    height: 44px;
+}
+
+.btn {
+    width: 203px;
+    height: 60px;
+    background-color: black;
+    border-radius: 23px;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 2px solid rgb(221, 255, 0);
+}
